@@ -16,7 +16,7 @@ const server = http.createServer((req, res) => {
 
     res.end();
 })
-console.log('listening on port 1025...')
 
 
 server.listen(1025)
+console.log('listening on port 1025...')
